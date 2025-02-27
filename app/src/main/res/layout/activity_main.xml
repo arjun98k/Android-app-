@@ -3,27 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+
     android:orientation="vertical"
+    android:id="@+id/linearlayout"
     tools:context=".MainActivity">
 
+
     <Button
-        android:id="@+id/btn3"
+        android:id="@+id/btndark"
+        android:layout_margin="20dp"
+        android:padding="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <TextView
-        android:id="@+id/helloTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="24sp" />
+        android:text="Dark" />
 
     <Button
         android:id="@+id/btn"
+        android:layout_margin="20dp"
+        android:padding="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Light" />
 
 </LinearLayout>
